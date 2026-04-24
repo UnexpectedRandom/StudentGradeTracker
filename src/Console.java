@@ -39,7 +39,7 @@ public class Console {
                  scanner.nextLine();
                  return floatValue;
             }catch(InputMismatchException e) {
-                System.out.println("Must input An Integer Value");
+                System.out.println("Must input An Float Value");
                 e.printStackTrace();
                 scanner.nextLine();
             }
@@ -50,7 +50,7 @@ public class Console {
         return handleIntagerInput("Enter Student ID: ");
     }
 
-    public int InputClassID() {
+    public int inputClassID() {
         return handleIntagerInput("Enter Class ID: ");
     }
 
