@@ -33,7 +33,7 @@ public class App {
                     if(command.substring(7).equalsIgnoreCase("student")) {
                         databaseManipulator.deleteStudent(console.inputStudentID(), connectSever);
                     } else if(command.substring(7).equalsIgnoreCase("grades")){
-                        databaseManipulator.deleteGrade(connectSever, console.inputStudentID(), console.InputClassID());
+                        databaseManipulator.deleteGrade(connectSever, console.inputStudentID(), console.inputClassID());
                     }
                 }
 
