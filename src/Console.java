@@ -50,12 +50,12 @@ public class Console {
         return handleIntagerInput("Enter Student ID: ");
     }
 
-    public int InputclassID() {
+    public int InputClassID() {
         return handleIntagerInput("Enter Class ID: ");
     }
 
     public String[] studentInformation() {
-        System.out.println();
+        System.out.println("Enter Student Last Name");
         String lastName = scanner.nextLine();
 
         System.out.println("Enter Student First Name: ");
@@ -95,10 +95,10 @@ public class Console {
         System.out.printf("%-18s | %-45s\n", "get student", "Search for a student by their ID");
         System.out.printf("%-18s | %-45s\n", "delete student", "Remove a student from the system");
         
-        System.out.printf("%-18s | %-45s\n", "add grade", "Assign a grade to a student");
+        System.out.printf("%-18s | %-45s\n", "add grades", "Assign a grade to a student");
         System.out.printf("%-18s | %-45s\n", "get grades", "View a student's full grade report");
-        System.out.printf("%-18s | %-45s\n", "delete grade", "Remove a specific grade entry");
-        System.out.printf("%-18s | %-45s\n", "get classes", "List all available classes");
+        System.out.printf("%-18s | %-45s\n", "delete grades", "Remove a specific grade entry");
+        System.out.printf("%-18s | %-45s\n", "get class", "List all available classes");
         
         System.out.printf("%-18s | %-45s\n", "help", "Show this list of commands");
         System.out.printf("%-18s | %-45s\n", "exit", "Close the application");
